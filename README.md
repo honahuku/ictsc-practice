@@ -6,6 +6,16 @@
 @SoragamiRaito
 @Ringo-onct
 
+## rule
+### commit & branch
+コミットメッセージとブランチの命名規則は[Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/)に準拠するものとします。  
+例としては以下のとおりです。  
+```text
+feat: hoge関数の追加
+feat: poyoの導入
+fix: typo
+```
+
 ## kind
 
 ```bash
