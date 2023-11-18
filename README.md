@@ -16,6 +16,9 @@ feat: poyoの導入
 fix: typo
 ```
 
+### merge & review
+mainへの直接コミットはせず、Pull Request(PR) を作成し1名以上のレビューをもらってください。 
+
 ## kind
 
 ```bash
