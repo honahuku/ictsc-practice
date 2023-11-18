@@ -2,9 +2,22 @@
 
 ## member
 
-@honahuku
-@SoragamiRaito
-@Ringo-onct
+@honahuku  
+@SoragamiRaito  
+@Ringo-onct  
+
+## rule
+### commit & branch
+コミットメッセージとブランチの命名規則は[Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/)に準拠するものとします。  
+例としては以下のとおりです。  
+```text
+feat: hoge関数の追加
+feat: poyoの導入
+fix: typo
+```
+
+### merge & review
+mainへの直接コミットはせず、Pull Request(PR) を作成し1名以上のレビューをもらってください。 
 
 ## kind
 
