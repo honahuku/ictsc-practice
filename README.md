@@ -2,9 +2,9 @@
 
 ## member
 
-@honahuku
-@SoragamiRaito
-@Ringo-onct
+@honahuku  
+@SoragamiRaito  
+@Ringo-onct  
 
 ## rule
 ### commit & branch
