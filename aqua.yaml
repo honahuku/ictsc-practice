@@ -11,3 +11,6 @@ registries:
   ref: v4.89.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: kubernetes-sigs/kind@v0.20.0
+- name: derailed/k9s@v0.28.2
+- name: kubernetes/kubectl@v1.25.16
+- name: ahmetb/kubectx@v0.9.5
