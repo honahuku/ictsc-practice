@@ -1,8 +1,12 @@
 # ictsc-practice
+
 ## member
+
 @honahuku
+@SoragamiRaito
 
 ## kind
+
 ```bash
 kind create cluster --config=cluster-config.yml
 kubectl cluster-info --context kind-kind
