@@ -5,6 +5,7 @@
 @honahuku  
 @SoragamiRaito  
 @Ringo-onct  
+@gumi-69  
 
 ## rule
 ### commit & branch
