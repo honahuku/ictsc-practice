@@ -31,11 +31,4 @@ mainへの直接コミットはせず、Pull Request(PR) を作成し1名以上�
 
 [コードレビュー時に使用する略称一覧 #Git - Qiita](https://qiita.com/pike3/items/fe529d07da25ad1bf2fd)
 
-## kind
 
-```bash
-kind create cluster --config=cluster-config.yml
-kubectl cluster-info --context kind-kind
-# これが通ったらkindのセットアップ成功
-kubectl get nodes
-```
