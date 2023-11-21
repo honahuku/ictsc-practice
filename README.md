@@ -24,6 +24,13 @@ fix: typo
 
 mainへの直接コミットはせず、Pull Request(PR) を作成し1名以上のレビューをもらってください。
 
+### レビューコメントの略語
+
+[IMO] や [LGTM] などコメントの先頭に略語がついていることがあります。  
+これはレビュアーがどのような意図でコメントしているかを伝えるものです。  
+
+[コードレビュー時に使用する略称一覧 #Git - Qiita](https://qiita.com/pike3/items/fe529d07da25ad1bf2fd)
+
 ## kind
 
 ```bash
