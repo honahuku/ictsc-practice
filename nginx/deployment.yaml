@@ -6,9 +6,10 @@ metadata:
   labels:
     app: nginx
   name: nginx-deployment
+  namespace: nginx
 spec:
   # 同一の内容のpodを複数持つことで冗長化させる
-  replicas: 1
+  replicas: 2
   # serviceのselectorと一致させることで関連付けをする
   selector:
     matchLabels:
@@ -22,7 +23,7 @@ spec:
     spec:
       containers:
         # nginxのimageを用いる
-        - image: nginx
+        - image: nginx:latest
           # pods内で動作するコンテナの名前
           name: nginx
           # 80番ポートでリクエストを受け付ける

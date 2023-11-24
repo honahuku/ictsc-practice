@@ -4,6 +4,10 @@ kind: Service
 # メタデータとしてつけたnameで識別できる
 metadata:
   name: nginx-service
+  namespace: nginx
+  labels:
+    app: nginx-app
+    name: nginx
 spec:
   # deploymentなどとの関連付け
   selector:
@@ -11,7 +15,8 @@ spec:
   # Nodeへのリクエストを受け付けるポートを割り当てる
   type: NodePort
   ports:
-    - protocol: TCP
+    - name: nginx-port
+      protocol: TCP
       # リクエストを受け付けるポート
       port: 80
       # リクエストを送信するポート

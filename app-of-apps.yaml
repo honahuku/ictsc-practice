@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: applications
-    repoURL: https://github.com/honahuku/ictsc-practice/
-    targetRevision: main
+    repoURL: https://github.com/honahuku/ictsc-practice.git
+    targetRevision: test
   syncPolicy:
     automated: {}
