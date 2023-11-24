@@ -1,0 +1,21 @@
+# https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+apiVersion: v1
+kind: Service
+# メタデータとしてつけたnameで識別できる
+metadata:
+  name: nginx-service
+spec:
+  # deploymentなどとの関連付け
+  selector:
+    app: nginx
+  # Nodeへのリクエストを受け付けるポートを割り当てる
+  type: NodePort
+  ports:
+    - protocol: TCP
+      # リクエストを受け付けるポート
+      port: 80
+      # リクエストを送信するポート
+      targetPort: 80
+      # NodePortとして割り当てられるポート
+      # cluster-configのcontainerPortと揃える
+      nodePort: 30000
