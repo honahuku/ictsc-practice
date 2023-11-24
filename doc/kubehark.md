@@ -1,5 +1,4 @@
 # kubeshar
-
 ## kubeshark のインストール
 
 ```bash
@@ -14,7 +13,5 @@ kubeshark tap &
 ```
 
 ## 参考
-
-[KubernetesのAPI traffic viewerであるKubesharkを試してみる](https://zenn.dev/johnn26/articles/kubeshark-tutorial)
-
-公式サイト→[https://docs.kubeshark.co/en/install](https://docs.kubeshark.co/en/install)
+[KubernetesのAPI traffic viewerであるKubesharkを試してみる](https://zenn.dev/johnn26/articles/kubeshark-tutorial)  
+公式:[https://docs.kubeshark.co/en/install](https://docs.kubeshark.co/en/install)
