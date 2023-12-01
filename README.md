@@ -6,6 +6,7 @@
 [@SoragamiRaito](https://github.com/SoragamiRaito)  
 [@Ringo-onct](https://github.com/Ringo-onct)  
 [@gumi-69](https://github.com/gumi-69)  
+[@osatou5514](https://github.com/osatou5514)  
 
 ## rule
 
