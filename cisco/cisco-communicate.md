@@ -18,6 +18,8 @@
 * [pc1] Fastethernet 0 ----- Gigabitethernet 0/0 [router]
 * [pc2] Fastethernet 0 ----- Gigabitethernet 0/1 [router]
 
+![構成イメージ](./emulation.jpg)
+
 ### 2.ルーターの設定
 cisco packet tracerではルーターに対してGUIでの設定も行えるが、今回はCUIでの設定手法を紹介する
 
@@ -92,3 +94,6 @@ Approximate round trip times in milli-seconds:
 
 reply from ~というメッセージが表示されたら成功  
 うまく届かないと、request timed out というメッセージが返ってくる
+
+ルーターのコンフィグは"config.txt"として保存しているので  
+気になったらのぞいてみてください
