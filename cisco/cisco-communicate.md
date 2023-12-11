@@ -95,5 +95,5 @@ Approximate round trip times in milli-seconds:
 reply from ~というメッセージが表示されたら成功  
 うまく届かないと、request timed out というメッセージが返ってくる
 
-ルーターのコンフィグは"config.txt"として保存しているので  
+ルーターのコンフィグは"router-config.txt"として保存しているので  
 気になったらのぞいてみてください
