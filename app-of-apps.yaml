@@ -11,6 +11,6 @@ spec:
   source:
     path: applications
     repoURL: https://github.com/honahuku/ictsc-practice.git
-    targetRevision: main
+    targetRevision: test
   syncPolicy:
     automated: {}
