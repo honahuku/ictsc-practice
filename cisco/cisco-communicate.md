@@ -14,11 +14,14 @@
 * router 1941を1台
 
 上記の機材を配置し、straight-throughで結線を行う(⚡マーク→黒の実線)  
-接続するポートは以下の通り。ケーブルを選択しながら機材をクリックでポート選択のタブが出てくる
+接続するインターフェースは以下の通り。ケーブルを選択しながら機材をクリックでインターフェース選択のタブが出てくる
 * [pc1] Fastethernet 0 ----- Gigabitethernet 0/0 [router]
 * [pc2] Fastethernet 0 ----- Gigabitethernet 0/1 [router]
 
-![構成イメージ](./emulation.jpg)
+![](./emulation.jpg "構成イメージ")
+
+インターフェースはパケットのやり取りをする装置のこと  
+今回の場合はpc側のFastethernet 0やGigabitEthernet 0/0 0/1が該当する
 
 ### 2.ルーターの設定
 cisco packet tracerではルーターに対してGUIでの設定も行えるが、今回はCUIでの設定手法を紹介する
@@ -29,17 +32,17 @@ router> enable              //特権(管理者)モードに移行
 router# configure terminal  //設定モードへ移行
 ```
 
-ルーターの各ポートにIPアドレスを割り振る  
+ルーターの各インターフェースにIPアドレスを割り振る  
 
 ```
-//pc1とつながっている0/0ポート
+//pc1とつながっている0/0インターフェース
 router(config)# interface Gigabitethernet 0/0
 router(config-if)# ip address 192.168.0.254 255.255.255.0
 router(config-if)# no shutdown  //インターフェースを有効化
 router(config-if)# exit         //ひとつ前のモードへ
 router(config)#
 
-//pc2とつながっている0/1ポート
+//pc2とつながっている0/1インターフェース
 router(config)# interface Gigabitethernet 0/1
 router(config-if)# ip address 192.168.1.254 255.255.255.0
 router(config-if)# no shutdown
