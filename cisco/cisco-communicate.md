@@ -20,8 +20,8 @@
 
 ![](./emulation.jpg "構成イメージ")
 
-インターフェースはパケットのやり取りをする装置のこと  
-今回の場合はpc側のFastethernet 0やGigabitEthernet 0/0 0/1が該当する
+インターフェースは端子のルーター内部での呼び方で、パケットのやり取りをする装置のこと  
+Fastethernet(PC側)とGigabitEthernet(ルーター側)が該当する
 
 ### 2.ルーターの設定
 cisco packet tracerではルーターに対してGUIでの設定も行えるが、今回はCUIでの設定手法を紹介する
