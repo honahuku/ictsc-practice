@@ -31,5 +31,3 @@ mainへの直接コミットはせず、Pull Request(PR) を作成し1名以上�
 これはレビュアーがどのような意図でコメントしているかを伝えるものです。  
 
 [コードレビュー時に使用する略称一覧 #Git - Qiita](https://qiita.com/pike3/items/fe529d07da25ad1bf2fd)
-
-
